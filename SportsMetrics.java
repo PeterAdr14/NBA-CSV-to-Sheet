@@ -33,7 +33,6 @@ public class SportsMetrics {
          * Try-catch to ensure connection to the Google Sheet
          */
         try {
-            UpdateValuesResponse result =
                     gsheet.spreadsheets().values().update(SHEET_ID, targetRange, body)
                             .setValueInputOption(valueInputOption.USER_ENTERED.toString())
                             .execute();
