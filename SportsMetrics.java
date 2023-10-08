@@ -9,7 +9,7 @@ public class SportsMetrics {
     /**
      * Initializing the path to the JSON Key, CSV File, Google Sheet ID, target range, and the user-entered
      */
-    private static final String CREDENTIALS_FILE_PATH = "./Resources/nba-stats-381922-853d6be8f1fe.json";
+    private static final String CREDENTIALS_FILE_PATH = <YOUR JSON KEY FILE PATHWAY>;
     private static final String CSV_FILE_PATH = "./Resources/22-23NBA.csv";
     private static final String SHEET_ID = "1swc93fT7O1cwwjfNDlT3BVGRKAaJFF5iX67nHm8xadE";
     static String targetRange = "Sheet1!A1:V";
