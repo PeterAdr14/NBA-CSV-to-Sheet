@@ -36,8 +36,6 @@ public class ReadCSV {
             pnew.add(sc.next().replace("\"",""));
             pnew.add(sc.next().replace("\"",""));
             pnew.add(sc.next().replace("\"",""));
-            sc.next();
-            sc.next();
             pnew.add(sc.next().replace("\"",""));
             pnew.add(sc.next().replace("\"",""));
             pnew.add(sc.next().replace("\"",""));
@@ -46,9 +44,13 @@ public class ReadCSV {
             pnew.add(sc.next().replace("\"",""));
             sc.next();
             sc.next();
+            pnew.add(sc.next().replace("\"",""));
+            pnew.add(sc.next().replace("\"",""));
+            pnew.add(sc.next().replace("\"",""));
+            pnew.add(sc.next().replace("\"",""));
             sc.next();
-            sc.next();
-            sc.next();
+            pnew.add(sc.next().replace("\"",""));
+            pnew.add(sc.next().replace("\"",""));
             active.add(pnew);
             sc.nextLine();
         }
